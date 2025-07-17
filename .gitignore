@@ -1,0 +1,47 @@
+# Ambientes Virtuais
+# Ignora a pasta do ambiente virtual que contém as bibliotecas instaladas localmente.
+# Essencial para não enviar centenas de megabytes desnecessários.
+venv/
+.venv/
+env/
+.env
+ENV/
+env.bak
+venv.bak
+
+# Arquivos de Cache e Bytecode do Python
+# Gerados automaticamente pelo Python para otimizar a execução.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de configuração de IDEs e Editores
+# Evita compartilhar configurações pessoais do seu ambiente de desenvolvimento.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema operacional
+# Arquivos de metadados específicos do macOS e Windows.
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e bancos de dados locais
+# Nunca envie logs ou bancos de dados de teste para o repositório.
+*.log
+*.db
+*.sqlite3
+*.sqlite
+
+# Arquivos de dados e planilhas
+# Descomente as linhas abaixo se você não quiser enviar os arquivos de dados brutos
+# para o seu repositório do GitHub, protegendo dados sensíveis.
+# *.csv
+# *.xlsx
+# *.xls
+
+# Arquivos de dependências de outros gerenciadores (se usados)
+poetry.lock
+.pids/
+.poetry/
