@@ -7,7 +7,7 @@ import pandas as pd
 import io
 
 # Importa a instância 'app' do arquivo app.py
-from app import app
+from index import app
 
 # Componente de Instruções
 instrucoes_layout = dbc.Alert([
